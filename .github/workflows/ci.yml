@@ -51,6 +51,6 @@ jobs:
       - run: pnpm format:check
       - run: pnpm lint
       - run: pnpm typecheck
-      - run: pnpm test --run
+      - run: pnpm vitest run
 
       - run: pnpm build
