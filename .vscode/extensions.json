@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "vitest.explorer",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-pg",
+    "drizzle-team.drizzle-vscode"
+  ]
+}

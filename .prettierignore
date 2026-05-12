@@ -1,0 +1,9 @@
+node_modules
+dist
+build
+coverage
+drizzle/migrations
+*.tsbuildinfo
+pnpm-lock.yaml
+.env
+.env.*
