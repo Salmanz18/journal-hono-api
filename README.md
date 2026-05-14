@@ -60,7 +60,10 @@ createdb hono_journal     # or use any existing Postgres instance
 pnpm db:generate
 pnpm db:migrate
 
-# 5. Run the dev server
+# 5. Verify everything locally
+pnpm verify
+
+# 6. Run the dev server
 pnpm dev
 ```
 
@@ -83,6 +86,7 @@ Visit [http://localhost:3000/health](http://localhost:3000/health) — you shoul
 | -------------------- | ------------------------------------------------------------------------ |
 | `pnpm dev`           | Start the dev server with `tsx watch` (hot reload)                       |
 | `pnpm build`         | Compile TypeScript → `dist/`                                             |
+| `pnpm verify`        | Run the same checks as CI: format, lint, typecheck, test, and build      |
 | `pnpm start`         | Run the compiled production server                                       |
 | `pnpm lint`          | Run ESLint on the whole project                                          |
 | `pnpm lint:fix`      | Run ESLint with `--fix`                                                  |
