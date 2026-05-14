@@ -14,10 +14,7 @@ if (existsSync(envPath)) {
 const envExample = readFileSync(envExamplePath, 'utf8');
 const jwtSecret = randomBytes(48).toString('base64url');
 
-const envFile = envExample.replace(
-  /^JWT_SECRET=.*$/m,
-  `JWT_SECRET=${jwtSecret}`,
-);
+const envFile = envExample.replace(/^JWT_SECRET=.*$/m, `JWT_SECRET=${jwtSecret}`);
 
 writeFileSync(envPath, envFile);
 
