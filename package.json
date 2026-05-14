@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.1.2",
   "description": "Production-ready Hono backend boilerplate with TypeScript, Drizzle ORM, and clean architecture",
   "engines": {
     "node": ">=20.0.0",
