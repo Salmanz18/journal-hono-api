@@ -10,6 +10,7 @@
     "pnpm": ">=9.0.0"
   },
   "scripts": {
+    "setup:env": "node scripts/setup-env.mjs",
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",

@@ -50,8 +50,8 @@ cd hono-journal-api
 pnpm install
 
 # 2. Configure environment
-cp .env.example .env
-# Edit .env — at minimum set DATABASE_URL and a strong JWT_SECRET (>= 32 chars)
+pnpm setup:env
+# Edit .env — at minimum set DATABASE_URL
 
 # 3. Create the database
 createdb hono_journal     # or use any existing Postgres instance
