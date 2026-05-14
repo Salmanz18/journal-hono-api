@@ -26,14 +26,14 @@ have to think about.
 | Testing          | [Vitest](https://vitest.dev)               | ^2.1      |
 | Linting          | ESLint 9 (flat config) + typescript-eslint | ^9 / ^8   |
 | Formatting       | Prettier                                   | ^3.4      |
-| Package manager  | pnpm                                       | ≥ 9       |
+| Package manager  | pnpm                                       | ≥ 10      |
 
 ---
 
 ## Prerequisites
 
 - **Node.js** ≥ 20 (use `nvm`, `fnm`, or `volta`)
-- **pnpm** ≥ 9 — install via `corepack enable && corepack prepare pnpm@latest --activate`
+- **pnpm** ≥ 10 — install via `corepack enable && corepack prepare pnpm@10.33.4 --activate`
 - **PostgreSQL** ≥ 14 running locally (or accessible via `DATABASE_URL`)
 
 > The project is intentionally portable: swapping `@hono/node-server` for `bun`, `deno serve`,
